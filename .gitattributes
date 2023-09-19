@@ -1,2 +1,5 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+Library filter=lfs diff=lfs merge=lfs -text
+Logs filter=lfs diff=lfs merge=lfs -text
+Assembly-CSharp.csproj filter=lfs diff=lfs merge=lfs -text
+Assets filter=lfs diff=lfs merge=lfs -text
+Gwaje.sln filter=lfs diff=lfs merge=lfs -text
